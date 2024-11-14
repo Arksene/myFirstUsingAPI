@@ -16,7 +16,7 @@ function searchGIF() {
           const cardTitle = gif.title;
           $("#gifList").append(
             `<div class="col-md-4 mt-3">
-            <div class="card d-flex h-100">
+            <div class="card d-flex h-100 text-bg-success">
             <img src="${gifUrl}" class="card-img-top"style="object-fit: cover; height: 200px;">
             <div class="card-body">
               <h5 class="card-title">${cardTitle}</h5>
